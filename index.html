@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+    </style>
+  </head>
+  <body>
+    <!--NAVBAR -->
+    <!--BARRA DE NAVEGACIÓN-->
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-container">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarOffcanvasLg"
+          aria-controls="navbarOffcanvasLg"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarOffcanvasLg">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="contacto.html"
+                >Contacto</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="acercaDeNosotros.html"
+                >Nosotros</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="carrito.html">Carrito</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Ingrese el producto"
+              aria-label="Search"
+            />
+            <a href="index.html"
+              ><button class="btn btn-outline-primary" type="submit">
+                Buscar
+              </button></a
+            >
+
+            <a href="Login.html"
+              ><button type="button" class="btn btn-light">LOGIN</button></a
+            >
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- MAIN -->
+    <div class="container-fluid">
+      <div class="row">
+        <!-- PUBLICIDAD 1, DEBE LLEVAR AL ERROR 404 -->
+        <div class="div-example col-xl-3 col-lg-6 col-md-6 col-sm-12">
+          <div class="div-example-hijo publicidades publi-1">
+            <a
+              href="ghttps://www.google.com/webhp?hl=es-419&sa=X&ved=0ahUKEwiVxKSJqLb7AhVFp5UCHcKrCm4QPAgI"
+              target="blank"
+            >
+              <img
+                src="https://main.oxobox.net/105gvFls/400/400/thumb.0VUgrm8Y.jpg"
+                class="rounded float-start"
+                alt="..."
+              />
+            </a>
+          </div>
+        </div>
+        <!-- Carrusel de promociones -->
+        <div
+          id="carouselExampleControls"
+          class="carousel slide col-xl-6 col-lg-6 col-md-6 col-sm-12"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://americanino.vtexassets.com/arquivos/ids/1295486-500-auto?v=1755012074&width=500&height=auto&aspect=true"
+                class="d-block w-100 carousel-img"
+                alt="aristoteles"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://static.dafiti.com.ar/p/el-genoves-3516-556025-1-catalog-new.jpg"
+                class="d-block w-100 carousel-img"
+                alt="nietzsche"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://legacy.vteximg.com.br/arquivos/ids/180354-504-680/1076270010_F100.jpg?v=637577326139000000"
+                class="d-block w-100 carousel-img"
+                alt="Platon"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- publicidad 2 AL HACER CLICK IR AL ERROR 404 -->
+        <div id="publi-2" class="div-example col-xl-3">
+          <div class="div-example-hijo publicidades publi-1">
+            <a
+              href="ghttps://www.google.com/webhp?hl=es-419&sa=X&ved=0ahUKEwiVxKSJqLb7AhVFp5UCHcKrCm4QPAgI"
+              target="blank"
+            >
+              <img
+                src="https://cfb.rabbitloader.xyz/snr8jbbp/rls.t-nw-a28/wp-content/uploads/2019/09/publicidad-creativa-heinz-200x303.png"
+                class="rounded float-start"
+                alt="..."
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-separador"></div>
+
+    <!-- cards -->
+    <main>
+      <div class="cards container text-center">
+        <div class="row">
+          <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12">
+            <div class="card w-75">
+              <img
+                class="card-img"
+                src="https://static.zara.net/photos///2022/W/0/2/p/3918/460/251/2/w/200/3918460251_2_1_1.jpg?ts=1645185672898"
+                class="card-img-center"
+                alt="..."
+              />
+              <div class="card-body card-item">
+                <h2 class="card-title">Camperas</h2>
+                <p class="card-text">Nueva colección 2023</p>
+                <a href="Camperas.html" class="btn btn-primary">Ver catálogo</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12">
+            <div class="card w-75">
+              <img
+                class="card-img-pantalones"
+                src="https://static.dafiti.com.ar/p/el-genoves-6019-856025-1-catalog-new.jpg"
+                class="card-img-center"
+                alt="..."
+              />
+              <div class="card-body card-item">
+                <h2 class="card-title">Pantalones</h2>
+                <p class="card-text">Nueva colección 2023</p>
+                <a href="Pantalon.html" class="btn btn-primary">Ver catálogo</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12">
+            <div class="card w-75">
+              <img
+                class="card-img card-img_2"
+                src="https://static.zara.net/photos///2022/V/0/2/p/7545/384/052/2/w/200/7545384052_2_1_1.jpg?ts=1642421895390"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body card-item">
+                <h2 class="card-title">Camisas</h2>
+                <p class="card-text">Nueva colección 2023</p>
+                <a href="error404.html" class="btn btn-primary">Ver catálogo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-8 col-sm-8">
+              <div class="footer-contenedor"><h1>Empresa</h1></div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+              <div class="footer-contenedor footer-size">
+                <ul class="footer-items">
+                  <li>
+                    <a href="#" class="footer-items-li">Politicas del Sitio</a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer-items-li">Tienda Oficial</a>
+                  </li>
+                  <li><a href="#" class="footer-items-li">Contacto</a></li>
+                  <li id="footer-copyright">
+                    ©2022 RollingCode S.A.S. Derechos reservados.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+              <div class="footer-contenedor footer-size">
+                <h6>Atencion al Cliente</h6>
+                <ul class="footer-items">
+                  <li><a href="#" class="footer-items-li">3810000071</a></li>
+                  <li>
+                    <a href="#" class="footer-items-li"
+                      >tienda@RollingCode.com</a
+                    >
+                  </li>
+                </ul>
+                <h6>Venta Mayorista</h6>
+                <ul class="footer-items">
+                  <li>
+                    <a href="#" class="footer-items-li"
+                      >ventas@RollingCode.com</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

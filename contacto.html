@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+    </style>
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header>
+      <!--NAVBAR -->
+      <!--BARRA DE NAVEGACIÓN-->
+
+      <nav class="navbar navbar-expand-lg bg-dark navbar-container">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarOffcanvasLg"
+            aria-controls="navbarOffcanvasLg"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarOffcanvasLg">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="contacto.html"
+                  >Contacto</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="acercaDeNosotros.html"
+                  >Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="carrito.html">Carrito</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Ingrese el producto"
+                aria-label="Search"
+              />
+              <a href="index.html"
+                ><button class="btn btn-outline-primary" type="submit">
+                  Buscar
+                </button></a
+              >
+
+              <a href="Login.html"
+                ><button type="button" class="btn btn-light">LOGIN</button></a
+              >
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Contenido principal -->
+      <section class="m-5">
+        <div
+          class="container d-flex flex-column justify-content-center align-items-center"
+        >
+          <div class="fondo__contacto p-4 m-5">
+            <h1 id="escribinos" class="text-center mt-5">Escribinos!!</h1>
+            <form class="mt-5">
+              <div
+                class="row d-flex justify-content-center align-content-center"
+              >
+                <div class="col-9">
+                  <input
+                    class="form-control m-2 mb-4"
+                    type="text"
+                    name="nombre"
+                    placeholder="Nombre"
+                  />
+                  <input
+                    class="form-control m-2 mb-4"
+                    type="text"
+                    name="apellido"
+                    placeholder="Apellido"
+                  />
+                  <input
+                    class="form-control m-2 mb-4"
+                    type="text"
+                    name="domicilio"
+                    placeholder="Domicilio"
+                  />
+                  <input
+                    class="form-control m-2 mb-4"
+                    type="text"
+                    name="cp"
+                    placeholder="Codigo Postal"
+                  />
+                  <input
+                    class="form-control m-2 mb-4"
+                    type="email"
+                    name="mail"
+                    placeholder="Email"
+                  />
+                  <select class="form-select m-2 mb-4" name="provincia" id="">
+                    <option value="BA">Buenos Aires</option>
+                    <option value="CF">Capital Federal</option>
+                    <option value="CA">Catamarca</option>
+                    <option value="CH">Chaco</option>
+                    <option value="CHU">Chubut</option>
+                    <option value="COR">Córdoba</option>
+                    <option value="CORR">Corrientes</option>
+                    <option value="ER">Entre Ríos</option>
+                    <option value="FOR">Formosa</option>
+                    <option value="JU">Jujuy</option>
+                    <option value="LP">La Pampa</option>
+                    <option value="LR">La Rioja</option>
+                    <option value="MEN">Mendoza</option>
+                    <option value="MI">Misiones</option>
+                    <option value="NEU">Neuquén</option>
+                    <option value="RN">Río Negro</option>
+                    <option value="SA">Salta</option>
+                    <option value="SJ">San Juan</option>
+                    <option value="SL">San Luis</option>
+                    <option value="SC">Santa Cruz</option>
+                    <option value="SF">Santa Fe</option>
+                    <option value="SDE">Santiago del Estero</option>
+                    <option value="TDF">Tierra del Fuego</option>
+                    <option value="TUC">Tucumán</option>
+                  </select>
+                  <textarea
+                    class="form-control m-2"
+                    name="consultas"
+                    id=""
+                    rows="15"
+                    placeholder="Su consulta"
+                  ></textarea>
+                  <div class="d-grid gap-2 mt-4">
+                    <input
+                      class="form-control m-2 p-3 btn btn-dark text-light"
+                      type="submit"
+                      value="Enviar"
+                      class="botonEnviar"
+                    />
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div
+            class="container d-flex flex-column align-items-center justify-content-center p-5"
+          >
+            <h2 class="titulo__ubicacion">Nuestra ubicación!!</h2>
+            >
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d629.3757692639765!2d-65.20613834215047!3d-26.83082264863641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1668114729706!5m2!1ses-419!2sar"
+              width="960"
+              height="600"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-8 col-sm-8">
+              <div class="footer-contenedor"><h1>Empresa</h1></div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+              <div class="footer-contenedor">
+                <ul class="footer-items">
+                  <li>
+                    <a href="#" class="footer-items-li">Politicas del Sitio</a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer-items-li">Tienda Oficial</a>
+                  </li>
+                  <li><a href="#" class="footer-items-li">Contacto</a></li>
+                  <li id="footer-copyright">
+                    ©2022 RollingCode S.A.S. Derechos reservados.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+              <div class="footer-contenedor">
+                <h6>Atencion al Cliente</h6>
+                <ul class="footer-items">
+                  <li><a href="#" class="footer-items-li">3810000071</a></li>
+                  <li>
+                    <a href="#" class="footer-items-li"
+                      >tienda@RollingCode.com</a
+                    >
+                  </li>
+                </ul>
+                <h6>Venta Mayorista</h6>
+                <ul class="footer-items">
+                  <li>
+                    <a href="#" class="footer-items-li"
+                      >ventas@RollingCode.com</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
